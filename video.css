@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.title-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-title {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.title{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,38 @@
+.reserve-bg-img{
+    background-image: url("image/background.jpg");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#info{
+    padding: 3%;
+    border-radius: 70px;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.description{
+    width: 60%;
+    text-align: left;
+    margin-top: 1.5cm
+}
+#name{
+    font-size: 60px;
+}
+#skill{
+    font-size: 30px;
+}
+#short-des{
+    font-size: 25px;
+}
+#quote{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

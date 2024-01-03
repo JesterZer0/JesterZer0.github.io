@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+
+.title-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-title {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+}
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    object-fit: cover;
+    transition: transform 0.5s, z-index 0.5s, box-shadow 0.5s;
+    margin: 10px;
+}
+
+.photo:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
